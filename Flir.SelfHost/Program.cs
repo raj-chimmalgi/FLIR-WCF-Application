@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
 using Flir.CameraServices;
+using Flir.PowerSupplyServices;
+
 
 namespace Flir.SelfHost
 {
@@ -15,11 +13,14 @@ namespace Flir.SelfHost
         {
             try
             {
-                ServiceHost host = new ServiceHost(typeof(CameraService));
-                host.Open();
+                ServiceHost powerSupplyHost = new ServiceHost(typeof(PowerSupplyService));
+                ServiceHost cameraHost = new ServiceHost(typeof(CameraService));
+                powerSupplyHost.Open();
+                cameraHost.Open();
                 Console.WriteLine("Hit any key to exit");
                 Console.ReadKey();
-                host.Close();
+                powerSupplyHost.Close();
+                cameraHost.Close();
             }
             catch (Exception ex)
             {

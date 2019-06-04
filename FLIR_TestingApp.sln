@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.CameraServices", "Flir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.Services", "Flir.Services\Flir.Services.csproj", "{32B0D9C1-1D9E-4FD2-85D9-680B27FA0C3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.PowerSupplyServices", "Flir.PowerSupplyServices\Flir.PowerSupplyServices.csproj", "{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{32B0D9C1-1D9E-4FD2-85D9-680B27FA0C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B0D9C1-1D9E-4FD2-85D9-680B27FA0C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B0D9C1-1D9E-4FD2-85D9-680B27FA0C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

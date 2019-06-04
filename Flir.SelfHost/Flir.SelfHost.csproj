@@ -79,16 +79,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Flir.CameraServices\Flir.CameraServices.csproj">
-      <Project>{caccf55d-48d8-4bcf-b101-ed6fd8f35c1b}</Project>
-      <Name>Flir.CameraServices</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Flir.Entities\Flir.Entities.csproj">
-      <Project>{7ec71c6e-e769-4c9e-8327-c72b0724b1b7}</Project>
-      <Name>Flir.Entities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -99,6 +89,20 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Flir.CameraServices\Flir.CameraServices.csproj">
+      <Project>{caccf55d-48d8-4bcf-b101-ed6fd8f35c1b}</Project>
+      <Name>Flir.CameraServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flir.Entities\Flir.Entities.csproj">
+      <Project>{7ec71c6e-e769-4c9e-8327-c72b0724b1b7}</Project>
+      <Name>Flir.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flir.PowerSupplyServices\Flir.PowerSupplyServices.csproj">
+      <Project>{da12436d-ee1c-40f0-a123-2b8e4421ec8a}</Project>
+      <Name>Flir.PowerSupplyServices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

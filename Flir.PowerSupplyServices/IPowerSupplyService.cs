@@ -6,24 +6,24 @@ using System.Text;
 using System.Threading.Tasks;
 using Flir.Entities;
 
-namespace Flir.CameraService
+namespace Flir.PowerSupplyServices
 {
     [ServiceContract]
-    public interface ICameraService
+    public interface IPowerSupplyService
     {
         [OperationContract]
-        List<Camera> GetCameras();
+        List<PowerSupply> GetCPowerSupplies();
 
         [OperationContract]
-        bool ConnectToCamera(int cameraId);
+        float GetVoltage(int powerSupplyId, int cameraId);
 
         [OperationContract]
-        bool StartStreaming(int cameraId);
+        float GetCurrent(int powerSupplyId, int cameraId);
 
         [OperationContract]
-        bool StopStreaming(int cameraId);
+        bool ConnectToPowerSupply(string comPort);
 
         [OperationContract]
-        bool DisconnectCamera(int cameraId);
+        bool DisconnectPowerSuppy(int powerSupplyId);
     }
 }
