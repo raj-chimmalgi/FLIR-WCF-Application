@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Flir.Entities;
 
-namespace Flir.PowerSupplyService
+namespace Flir.Services
 {
     [ServiceContract]
     public interface IFlirService

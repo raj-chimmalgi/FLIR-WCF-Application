@@ -12,7 +12,8 @@ using Flir.Data;
 using Flir.Entities;
 
 
-namespace Flir.FlirServices
+
+namespace Flir.Services
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
     public class FlirService : IFlirService, IDisposable

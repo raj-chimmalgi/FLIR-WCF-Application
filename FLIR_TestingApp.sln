@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.Services", "Flir.Servi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.PowerSupplyServices", "Flir.PowerSupplyServices\Flir.PowerSupplyServices.csproj", "{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flir.ServiceClient", "Flir.ServiceClient\Flir.ServiceClient.csproj", "{374D5ADC-D61D-47A2-8324-05AC39324C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA12436D-EE1C-40F0-A123-2B8E4421EC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374D5ADC-D61D-47A2-8324-05AC39324C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374D5ADC-D61D-47A2-8324-05AC39324C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374D5ADC-D61D-47A2-8324-05AC39324C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374D5ADC-D61D-47A2-8324-05AC39324C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
